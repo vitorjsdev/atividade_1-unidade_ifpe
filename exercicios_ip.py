@@ -1,5 +1,5 @@
 #Questão 1: 
-matriz = []
+'''matriz = []
 
 linhas = int(input("número de linhas da matriz: "))
 colunas = int(input("número de colunas: "))
@@ -20,18 +20,18 @@ print(f"\nMatriz {linhas} x {colunas}")
 for i in range(linhas):
     for j in range(colunas):
         print(matriz[i][j], end=" ")
-    print(" ")
+    print(" ")'''
 
 
 #Questão 2: 
-
+aprovados = 0
 gabarito = []
 print("Qual o gabarito da prova? ")
 for i in range(5):
     resposta_gabarito = input(f"Questão {i + 1}: ")
     gabarito.append(resposta_gabarito)
 
-aprovados = 0
+
 for a in range(5):
     aluno = a + 1
     print(f"\nInforme as respostas do aluno {aluno}")
@@ -50,5 +50,4 @@ for a in range(5):
     
     if nota_fim >= 7:
         aprovados += 1
-
-print("O percentual de aprovação é de "(int(aprovados/5) * 100))
+print("O percentual de aprovação é de ", ((aprovados/5) * 100))
