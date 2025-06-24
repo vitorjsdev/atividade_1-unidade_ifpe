@@ -51,6 +51,4 @@ for a in range(5):
     if nota_fim >= 7:
         aprovados += 1
 
-porc_de_aprovados = (aprovados / 5) * 100
-
 print("O percentual de aprovação é de "(int(aprovados/5) * 100))
